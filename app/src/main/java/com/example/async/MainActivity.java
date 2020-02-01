@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         url=findViewById(R.id.url);
         go=findViewById(R.id.go);
+
+
         image=findViewById(R.id.picture);
         go.setOnClickListener(new View.OnClickListener() {
             @Override
