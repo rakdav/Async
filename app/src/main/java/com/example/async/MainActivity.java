@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
             Bitmap bm=null;
             try {
                 URL url=new URL(strings[0]);
+
                 URLConnection connection=url.openConnection();
                 connection.connect();
                 InputStream is=connection.getInputStream();
